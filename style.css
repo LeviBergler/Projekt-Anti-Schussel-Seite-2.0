@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px;
+}
+.row{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 1px;
+}
+.menu li{
+    padding: 4px;
+    color: cornflowerblue;
+    box-shadow: 3px 3px 2px red;
+}
+.menu li:hover{
+    background-color: aliceblue;
+}
+.spalte2{
+
+}
+.aside{
+    color: darkgoldenrod;
+    padding: 4px;
+    background-color: ghostwhite;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px red;
+    text-align: center;
+}
+.spalte3{
+
+}
+.footer{
+    background-color: gray;
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+[class*="col-"]{
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {               /* Je nach Bildschirmpixel kann man das Aussehen der Website komplett verändern(Tablat= andere Farbe als Laptop oder Handy usw.) */
+    .col-s-1{width: 25%; background-color: blue;}
+    .col-s-4{width: 33.3%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1{width: 25%; background-color: chartreuse;}
+    .col-4{width: 75%;}
+}
