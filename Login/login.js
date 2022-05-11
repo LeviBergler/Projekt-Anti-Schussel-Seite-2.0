@@ -19,6 +19,7 @@ if (username == atob("TGVocmVy") && password == atob("VXNlcl8xNw==")) {
         () => {
             button.removeAttribute("disabled")
             button.innerHTML = "Login"
+            document.getElementById("LoginFailed").innerHTML = ""
         }, 15000
     )
 }

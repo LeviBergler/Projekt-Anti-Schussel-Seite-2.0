@@ -9,17 +9,19 @@
         <script src="login.js"></script>
     </head>
     <body>
-        <form>
+        <main class="main">
+        <form class="form">
             <img class="logo" src="Logo.png" alt="logo" height="300">
             <h1 class="lOgiN">Rayquaza - Login</h1>
-            <h2 id="LoginFailed"></h2>
+            <h2 class="LoginFailed" id="LoginFailed"></h2>
             <div class="Username">
                 <input type="text" name="Username" id="Username" placeholder="Username">
             </div>
             <div class="Password">
                 <input type="password" name="Password" id="Password" placeholder="Password">
             </div>
-            <button type="button" onclick="login()" id="loginButton">Login</button>
+            <button class="button" type="button" onclick="login()" id="loginButton">Login</button>
         </form>
+        </main>
     </body>
 </html>

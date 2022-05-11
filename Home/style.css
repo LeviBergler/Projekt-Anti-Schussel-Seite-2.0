@@ -23,9 +23,7 @@
 .menu li:hover{
     background-color: aliceblue;
 }
-.spalte2{
 
-}
 .aside{
     color: darkgoldenrod;
     padding: 4px;
@@ -34,9 +32,7 @@
     box-shadow: 5px 5px 5px red;
     text-align: center;
 }
-.spalte3{
 
-}
 .footer{
     background-color: gray;
     color: aliceblue;
